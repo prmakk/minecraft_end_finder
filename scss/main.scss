@@ -429,6 +429,26 @@ $hoverColor: #A279AA;
 }
 
 // RESPONSIVE DESIGN
+@media screen and (max-height: 720px) {
+    .hero__main-info h1{
+        margin-top: 0px;
+    }
+    .hero__main-image img {
+        max-width: 454px;
+    }
+}
+
+@media screen and (max-height: 720px), screen and (max-width: 1062px) {
+    .hero__main-info h1{
+        font-size: 50px;
+    }
+    .hero__main-info p{
+        font-size: 25px;
+    }
+    .hero__main-image img {
+        max-width: 454px;
+    }
+}
 
 @media screen and (max-width: 1250px) {
     .container{
@@ -436,10 +456,17 @@ $hoverColor: #A279AA;
     }
 }
 
-@media screen and (max-width: 1050px) {
-    .hero__main-image img {
-        max-width: 500px;
+@media screen and (max-width: 1170px) {
+    .hero__main-info h1{
+        margin-top: 0px;
     }
+    .hero__main-image img {
+        max-width: 454px;
+    }
+}
+
+@media screen and (max-width: 1050px) {
+    
     .calculation__throw1-inputs, .calculation__throw2-inputs{
         display: flex;
         flex-direction: column;
@@ -478,6 +505,7 @@ $hoverColor: #A279AA;
 
         &-image img {
             width: 100%;
+            max-width: 300px;
             display: block;
             margin: 0 auto;
             margin-top: 40px;

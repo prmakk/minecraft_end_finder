@@ -61,7 +61,7 @@ const langArr = {
     },
     'instructions' : {
         'ru': 'Инструкция',
-        'en': 'Instructions',
+        'en': 'Instruction',
         'ua': 'Інструкція',
     },
     'step1' : {
